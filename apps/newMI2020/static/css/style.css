@@ -1,0 +1,59 @@
+body {
+    background-color: #00a09a;
+    color: black;
+}
+
+.container {
+    background: gray;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-radius: 3%;
+}
+
+a {
+    color: white;
+}
+
+li a {
+    color: #F9A01B;
+}
+
+#miNavBar {
+    background-color: gray;
+    color: black;
+}
+
+#bottomNavBar {
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
+
+iframe {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.mainImage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+}
+
+.alignClass {
+    text-align: center;
+    position: relative;
+}
+
+ul {
+    width: 70%;
+    margin: auto;
+}
+
+nav {
+    border-radius: 3%;
+}

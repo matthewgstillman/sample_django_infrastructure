@@ -1,0 +1,32 @@
+ {% extends 'base.html' %} {% block title %}
+<title>Home</title>
+{% endblock %} {% block content %} {% load staticfiles %}
+<div class="mainImage">
+    <img width="1500" height="auto" src={% static "homeMain.jpg" %} alt="My image">
+</div>
+<br>
+<br>
+<h1 align="center">Microfacturing Institutes</h1>
+<h3 align="center">Cutting-Edge IoT and AI</h3>
+<h3 align="center">Created by Industry & Educational Leaders</h3>
+<br>
+<div class="container">
+    <br>
+    <h3 align="center">In just 14 weeks, courses from Microfacturing Institutes can better prepare you for a career in a high paying tech field.</h3>
+    <br>
+    <h3 align="center">At Microfacturing Institutes, we approach education and job training differently. Our courses are designed by world-recognized professionals and educators who are active leaders in their respective fields.
+    </h3>
+    <br>
+    <h3 align="center">We partner with progressive and passionate educators to deliver that content, and to adapt it to local needs. Our industry partners provide student mentoring and proactive hiring into paid internships or full time positions.</h3>
+    <br>
+    <h3 align="center">From IoT concepts such as Intelligent Lighting, Environmental Sensing to learning more about Python and Data Science, our online classes can get you certified with marketable skills that will help you land a high-paying career of the future.
+    </h3>
+    <br>
+    <h3 align="center">
+        For more information on our courses, click here: <a href="/courseinfo">Course Info</a>
+    </h3>
+    <br>
+    <br>
+</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sbAtvT7tRnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br> {% endblock %}
